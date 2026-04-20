@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.products {
+  width: 60%;
+}
+
+.cart {
+  width: 40%;
+  border-left: 2px solid black;
+  padding-left: 20px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}

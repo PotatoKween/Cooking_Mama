@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>placeholder</h1>
+
+<div class="container">
+  <div class="products">
+
+    <h2>Electronics</h2>
+    <div class="item"><p>Headphones - ₱500</p><button onclick="addToCart('Headphones',500)">Add</button></div>
+    <div class="item"><p>Keyboard - ₱800</p><button onclick="addToCart('Keyboard',800)">Add</button></div>
+    <div class="item"><p>Mouse - ₱300</p><button onclick="addToCart('Mouse',300)">Add</button></div>
+    <div class="item"><p>Monitor - ₱5000</p><button onclick="addToCart('Monitor',5000)">Add</button></div>
+    <div class="item"><p>USB Drive - ₱250</p><button onclick="addToCart('USB Drive',250)">Add</button></div>
+
+    <h2>Clothing</h2>
+    <div class="item"><p>T-Shirt - ₱200</p><button onclick="addToCart('T-Shirt',200)">Add</button></div>
+    <div class="item"><p>Hoodie - ₱700</p><button onclick="addToCart('Hoodie',700)">Add</button></div>
+    <div class="item"><p>Jeans - ₱900</p><button onclick="addToCart('Jeans',900)">Add</button></div>
+    <div class="item"><p>Jacket - ₱1200</p><button onclick="addToCart('Jacket',1200)">Add</button></div>
+    <div class="item"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+
+    <h2>Food</h2>
+    <div class="item"><p>Pizza - ₱350</p><button onclick="addToCart('Pizza',350)">Add</button></div>
+    <div class="item"><p>Burger - ₱150</p><button onclick="addToCart('Burger',150)">Add</button></div>
+    <div class="item"><p>Fries - ₱120</p><button onclick="addToCart('Fries',120)">Add</button></div>
+    <div class="item"><p>Soda - ₱50</p><button onclick="addToCart('Soda',50)">Add</button></div>
+    <div class="item"><p>Ice Cream - ₱90</p><button onclick="addToCart('Ice Cream',90)">Add</button></div>
+
+    <h2>Accessories</h2>
+    <div class="item"><p>Watch - ₱1500</p><button onclick="addToCart('Watch',1500)">Add</button></div>
+    <div class="item"><p>Ring - ₱400</p><button onclick="addToCart('Ring',400)">Add</button></div>
+    <div class="item"><p>Necklace - ₱600</p><button onclick="addToCart('Necklace',600)">Add</button></div>
+    <div class="item"><p>Cap - ₱250</p><button onclick="addToCart('Cap',250)">Add</button></div>
+    <div class="item"><p>Sunglasses - ₱350</p><button onclick="addToCart('Sunglasses',350)">Add</button></div>
+
+  </div>
+  <div class="cart">
+    <h2>Cart</h2>
+    <ul id="cartList"></ul>
+    <p>Total: ₱<span id="total">0</span></p>
+
+    <form action="http://52.74.133.173/cs3/checkout.php" method="GET" onsubmit="prepareOrder()">
+      <input type="text" name="cust_name" placeholder="Name" required><br>
+      <input type="text" name="cust_addr" placeholder="Address" required><br>
+      <input type="email" name="cust_email" placeholder="Email" required><br>
+
+      <input type="hidden" name="cust_order" id="cust_order">
+
+      <button type="submit">Checkout</button>
+    </form>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
