@@ -1,6 +1,5 @@
 body {
-  font-family: Arial;
-  margin: 20px;
+  font-family: 'Sniglet';
 }
 
 .container {
@@ -39,6 +38,5 @@ footer{
   text-align: center;
   padding: 15px;
   background-color: #ffe4e5;
-  font-family: "Sniglet";
   font-size: 18px;
 }
