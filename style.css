@@ -26,3 +26,18 @@ button {
   margin-left: 10px;
   cursor: pointer;
 }
+header{
+  height: 400px;
+  width: 100%;
+  background-image: url("header_bg.png");
+}
+header img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer{
+  text-align: center;
+  padding: 15px;
+  background-color: #ffe4e5;
+}
