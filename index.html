@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cooking Mama!🥧</title>
+  <title>Shopping With Cooking Mama!🥧</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -13,37 +13,61 @@
 <body>
 
 <header>
-  <img src="header.png" alt="Cooking Mama header">
+  <img src="header.png" alt="Cooking Mama">
 </header>
 <br>
-<div class="container-fluid">
 <div class="row">
   <div class="products col-sm-6">
 <script src="script.js"></script>
-    <h2>Appetizers</h2>
-    <div class="item"><p>Apple - ₱500</p><button onclick="addToCart('Apple',500)">Add</button></div>
-    <div class="item"><p>Miso Soup - ₱800</p><button onclick="addToCart('Miso Soup',800)">Add</button></div>
-    <div class="item"><p>Pan-fried Vegetables - ₱300</p><button onclick="addToCart('Pan-fried Vegetables',300)">Add</button></div>
-    <div class="item"><p>Potato Salad - ₱5000</p><button onclick="addToCart('Potato Salad',5000)">Add</button></div>
-    <div class="item"><p>Stuffed Peppers - ₱250</p><button onclick="addToCart('Stuffed Peppers',250)">Add</button></div>
-    <div class="item"><p>Cabbage Rolls - ₱250</p><button onclick="addToCart('Cabbage Rolls',250)">Add</button></div>
-    <div class="item"><p>Clubhouse Sandwich - ₱250</p><button onclick="addToCart('Clubhouse Sandwich',250)">Add</button></div>
+    <img src="Appetizers.png" alt="Appetizers" class="w-100">
 
-    <h2>Entrées</h2>
-    <div class="item"><p>T-Shirt - ₱200</p><button onclick="addToCart('T-Shirt',200)">Add</button></div>
-    <div class="item"><p>Hoodie - ₱700</p><button onclick="addToCart('Hoodie',700)">Add</button></div>
-    <div class="item"><p>Jeans - ₱900</p><button onclick="addToCart('Jeans',900)">Add</button></div>
-    <div class="item"><p>Jacket - ₱1200</p><button onclick="addToCart('Jacket',1200)">Add</button></div>
-    <div class="item"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+    <div class="row ms-2">
+    <div class="item col-sm-3"><p>Apple - ₱500</p><button onclick="addToCart('Apple',500)">Add</button></div>
+    <div class="item col-sm-3"><p>Miso Soup - ₱800</p><button onclick="addToCart('Miso Soup',800)">Add</button></div>
+    <div class="item col-sm-3"><p>Pan-fried Vegetables - ₱300</p><button onclick="addToCart('Pan-fried Vegetables',300)">Add</button></div>
+    <div class="item col-sm-3"><p>Potato Salad - ₱5000</p><button onclick="addToCart('Potato Salad',5000)">Add</button></div>
+    </div>
 
-    <h2>Desserts</h2>
-    <div class="item"><p>Pizza - ₱350</p><button onclick="addToCart('Pizza',350)">Add</button></div>
-    <div class="item"><p>Burger - ₱150</p><button onclick="addToCart('Burger',150)">Add</button></div>
-    <div class="item"><p>Fries - ₱120</p><button onclick="addToCart('Fries',120)">Add</button></div>
-    <div class="item"><p>Soda - ₱50</p><button onclick="addToCart('Soda',50)">Add</button></div>
-    <div class="item"><p>Ice Cream - ₱90</p><button onclick="addToCart('Ice Cream',90)">Add</button></div>
+    <div class="row ms-2">
+    <div class="item col-sm-4"><p>Stuffed Peppers - ₱250</p><button onclick="addToCart('Stuffed Peppers',250)">Add</button></div>
+    <div class="item col-sm-4"><p>Cabbage Rolls - ₱250</p><button onclick="addToCart('Cabbage Rolls',250)">Add</button></div>
+    <div class="item col-sm-4"><p>Clubhouse Sandwich - ₱250</p><button onclick="addToCart('Clubhouse Sandwich',250)">Add</button></div>
+    </div>
+
+    <br><br>
+    <img src="Entree.png" alt="Entree" class="w-100">
+
+    <div class="row ms-2">
+    <div class="item col-sm-3"><p>T-Shirt - ₱200</p><button onclick="addToCart('T-Shirt',200)">Add</button></div>
+    <div class="item col-sm-3"><p>Hoodie - ₱700</p><button onclick="addToCart('Hoodie',700)">Add</button></div>
+    <div class="item col-sm-3"><p>Jeans - ₱900</p><button onclick="addToCart('Jeans',900)">Add</button></div>
+    <div class="item col-sm-3"><p>Jacket - ₱1200</p><button onclick="addToCart('Jacket',1200)">Add</button></div>
+    </div>
+
+    <div class="row ms-2">
+    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+    </div>
+
+    <br><br>
+    <img src="Desserts.png" alt="Desserts" class="w-100">
+
+    <div class="row ms-2">
+    <div class="item col-sm-3"><p>Whoopie Pie - ₱350</p><button onclick="addToCart('Whoopie Pie',350)">Add</button></div>
+    <div class="item col-sm-3"><p>Thai Rolled Ice Cream - ₱150</p><button onclick="addToCart('Thai Rolled Ice Cream',150)">Add</button></div>
+    <div class="item col-sm-3"><p>Parfait - ₱120</p><button onclick="addToCart('Parfait',120)">Add</button></div>
+    <div class="item col-sm-3"><p>Strawberry Shortcake - ₱50</p><button onclick="addToCart('Strawberry Shortcake',50)">Add</button></div>
+    </div>
+
+    <div class="row ms-2">
+    <div class="item col-sm-4"><p>Lemon Mousse - ₱90</p><button onclick="addToCart('Lemon Mousse',90)">Add</button></div>
+    <div class="item col-sm-4"><p>Crème Brulee - ₱90</p><button onclick="addToCart('Crème Brulee',90)">Add</button></div>
+    <div class="item col-sm-4"><p>Cream Puff - ₱90</p><button onclick="addToCart('Cream Puff',90)">Add</button></div>
+    </div>
 
   </div>
+
   <div class="cart col-sm-6">
     <h2>Cart</h2>
     <ul id="cartList"></ul>
@@ -61,8 +85,8 @@
   </div>
 
 </div>
-</div>
 
+<br><br>
 <footer>
   <p>Thank you for coming to Cooking Mama!
     <br> © 2026 Bongalon-Barson-Mendoza. All rights reserved
