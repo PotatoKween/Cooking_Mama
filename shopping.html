@@ -14,7 +14,7 @@
 <div class="container-fluid">
 <div class="row">
   <div class="products col-sm-6">
-
+<script src="script.js"></script>
     <h2>Appetizers</h2>
     <div class="item"><p>Headphones - ₱500</p><button onclick="addToCart('Headphones',500)">Add</button></div>
     <div class="item"><p>Keyboard - ₱800</p><button onclick="addToCart('Keyboard',800)">Add</button></div>
@@ -42,7 +42,7 @@
     <ul id="cartList"></ul>
     <p>Total: ₱<span id="total">0</span></p>
 
-    <form action="http://52.74.133.173/cs3/checkout.php" method="GET" onsubmit="prepareOrder()">
+    <form action="http://52.74.133.173/cs3/checkout.php" method="POST" onsubmit="prepareOrder()">
       <input type="text" name="cust_name" placeholder="Name" required><br>
       <input type="text" name="cust_addr" placeholder="Address" required><br>
       <input type="email" name="cust_email" placeholder="Email" required><br>
@@ -55,6 +55,6 @@
 
 </div>
 
-<script src="script.js"></script>
+
 </body>
 </html>
