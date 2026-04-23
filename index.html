@@ -15,61 +15,307 @@
 <header>
   <img src="header.png" alt="Cooking Mama">
 </header>
+<nav class="row">
+  <div class="col-sm-6"><a href="index.html">Home</a></div>
+  <div class="col-sm-6" style="border-left: 5px solid #ffe4e5;"><a href="authors.html">About the Company</a></div>
+</nav>
+
 <br>
+
 <div class="row">
-  <div class="products col-sm-6">
+<div class="products col-sm-7">
 <script src="script.js"></script>
     <img src="Appetizers.png" alt="Appetizers" class="w-100">
+    
+    <div class="row ms-2 g-3" style="margin-top: 1px;">
 
-    <div class="row ms-2">
-    <div class="item col-sm-3"><p>Apple - ₱500</p><button onclick="addToCart('Apple',500)">Add</button></div>
-    <div class="item col-sm-3"><p>Miso Soup - ₱800</p><button onclick="addToCart('Miso Soup',800)">Add</button></div>
-    <div class="item col-sm-3"><p>Pan-fried Vegetables - ₱300</p><button onclick="addToCart('Pan-fried Vegetables',300)">Add</button></div>
-    <div class="item col-sm-3"><p>Potato Salad - ₱5000</p><button onclick="addToCart('Potato Salad',5000)">Add</button></div>
+    <div class="col-sm-3">
+      <div class="item app">
+        <p>Apple</p>
+      <img src="apple.png" alt="apple">
+      <p>₱500</p>
+      <button onclick="addToCart('Apple',500)">Add</button>
+      </div>
+    </div>
+    
+    <div class="col-sm-3">
+      <div class="item app">
+      <p>Miso Soup</p>
+      <img src="miso.png" alt="Miso Soup">
+      <p>₱800</p>
+      <button onclick="addToCart('Miso Soup',800)">Add</button>
+      </div>
     </div>
 
-    <div class="row ms-2">
-    <div class="item col-sm-4"><p>Stuffed Peppers - ₱250</p><button onclick="addToCart('Stuffed Peppers',250)">Add</button></div>
-    <div class="item col-sm-4"><p>Cabbage Rolls - ₱250</p><button onclick="addToCart('Cabbage Rolls',250)">Add</button></div>
-    <div class="item col-sm-4"><p>Clubhouse Sandwich - ₱250</p><button onclick="addToCart('Clubhouse Sandwich',250)">Add</button></div>
+    <div class="col-sm-3">
+      <div class="item app">
+      <p>Pan-fried Vegetables</p>
+      <img src="vege.png" alt="Pan-fried Vegetables">
+      <p>₱300</p>
+      <button onclick="addToCart('Pan-fried Vegetables',300)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item app">
+      <p>Potato Salad</p>
+      <img src="potsalad.png" alt="Potato Salad">
+      <p>₱5000</p>
+      <button onclick="addToCart('Potato Salad',5000)">Add</button>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="row ms-2" style="display: flex; justify-content: center;">
+
+    <div class="col-sm-3">
+      <div class="item app">
+      <p>Stuffed Peppers</p>
+      <img src="peppers.png" alt="Stuffed Peppers">
+      <p>₱250</p>
+      <button onclick="addToCart('Stuffed Peppers',250)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item app">
+    <p>Cabbage Rolls</p>
+    <img src="cabrolls.png" alt="Cabbage Rolls">
+    <p>₱200</p>
+    <button onclick="addToCart('Cabbage Rolls',200)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item app">
+      <p>Clubhouse Sandwich</p>
+      <img src="clubhouse_sandwich.png" alt="Clubhouse Sandwich">
+      <p>₱250</p>
+      <button onclick="addToCart('Clubhouse Sandwich',250)">Add</button>
+      </div>
     </div>
 
     <br><br>
     <img src="Entree.png" alt="Entree" class="w-100">
+    <div class="row ms-2 g-3" style="margin-top: 1px;">
 
-    <div class="row ms-2">
-    <div class="item col-sm-3"><p>T-Shirt - ₱200</p><button onclick="addToCart('T-Shirt',200)">Add</button></div>
-    <div class="item col-sm-3"><p>Hoodie - ₱700</p><button onclick="addToCart('Hoodie',700)">Add</button></div>
-    <div class="item col-sm-3"><p>Jeans - ₱900</p><button onclick="addToCart('Jeans',900)">Add</button></div>
-    <div class="item col-sm-3"><p>Jacket - ₱1200</p><button onclick="addToCart('Jacket',1200)">Add</button></div>
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Pork Curry and Rice</p>
+      <img src="pork_curry.png" alt="Pork Curry and Rice">
+      <p>₱200</p>
+      <button onclick="addToCart('Pork Curry and Rice',200)">Add</button>
+      </div>
     </div>
 
-    <div class="row ms-2">
-    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
-    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
-    <div class="item col-sm-4"><p>Socks - ₱100</p><button onclick="addToCart('Socks',100)">Add</button></div>
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>JP Hamburg Steak</p>
+      <img src="jap_hamburg.png" alt="Japanese Hamburg steak">
+      <p>₱700</p>
+      <button onclick="addToCart('Japanese Hamburg Steak',700)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Salisbury Steak</p>
+      <img src="salis.png" alt="Salisbury Steak">
+      <p>₱900</p>
+      <button onclick="addToCart('Salisbury Steak',900)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Pork Cutlet</p>
+      <img src="pork_cut.png" alt="Pork Cutlet">
+      <p>₱1200</p>
+      <button onclick="addToCart('Pork Cutlet',1200)">Add</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ms-2" style="display: flex; justify-content: center;">
+
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Minced Pork Steak</p>
+      <img src="minced_pork.png" alt="Minced Pork Steak">
+      <p>₱200</p>
+      <button onclick="addToCart('Minced Pork Steak',200)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Japanese Steak</p>
+      <img src="jp_steak.png" alt="Japanese Steak">
+      <p>₱500</p>
+      <button onclick="addToCart('Japanese Steak',500)">Add</button>
+      </div>
+    </div>
+    
+    <div class="col-sm-3">
+      <div class="item ent">
+      <p>Deep-fried Pork Kebabs</p>
+      <img src="pork_kebabs.png" alt="Deep-fried Pork Kebabs">
+      <p>₱185</p>
+      <button onclick="addToCart('Deep-fried Pork Kebabs',185)">Add</button>
+      </div>
+    </div>
+    </div>
+
+    <br><br>
+    <img src="side_dishes.png" alt="Side Dishes" class="w-100">
+
+    <div class="row ms-2 g-3" style="margin-top: 1px;">
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Boiled Rice</p>
+      <img src="rice.png" alt="Boiled Rice">
+      <p>₱80</p>
+      <button onclick="addToCart('Boiled Rice',60)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Shrimp Gyoza</p>
+      <img src="Shrimp_Gyoza.png" alt="Shrimp Gyoza">
+      <p>₱120</p>
+      <button onclick="addToCart('Shrimp Gyoza',120)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Omelete</p>
+      <img src="Omelete.png" alt="Omelete">
+      <p>₱95</p>
+      <button onclick="addToCart('Omelete',95)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Shrimp Fried Rice</p>
+      <img src="Shrimp_Rice.png" alt="Shrimp Fried Rice">
+      <p>₱1200</p>
+      <button onclick="addToCart('Shrimp Fried Rice',1200)">Add</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ms-2" style="display: flex; justify-content: center;">
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Boiled Egg</p>
+      <img src="Boiled_egg.png" alt="Boiled Egg">
+      <p>₱60</p>
+      <button onclick="addToCart('Boiled Egg',60)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Kimchi</p>
+      <img src="kimchi.png" alt="Kimchi">
+      <p>₱50</p>
+      <button onclick="addToCart('Kimchi',50)">Add</button>
+      </div>
+    </div>
+    
+    <div class="col-sm-3">
+      <div class="item side">
+      <p>Sushi</p>
+      <img src="Sushi.png" alt="Sushi">
+      <p>₱185</p>
+      <button onclick="addToCart('Sushi',185)">Add</button>
+      </div>
+    </div>
     </div>
 
     <br><br>
     <img src="Desserts.png" alt="Desserts" class="w-100">
 
-    <div class="row ms-2">
-    <div class="item col-sm-3"><p>Whoopie Pie - ₱350</p><button onclick="addToCart('Whoopie Pie',350)">Add</button></div>
-    <div class="item col-sm-3"><p>Thai Rolled Ice Cream - ₱150</p><button onclick="addToCart('Thai Rolled Ice Cream',150)">Add</button></div>
-    <div class="item col-sm-3"><p>Parfait - ₱120</p><button onclick="addToCart('Parfait',120)">Add</button></div>
-    <div class="item col-sm-3"><p>Strawberry Shortcake - ₱50</p><button onclick="addToCart('Strawberry Shortcake',50)">Add</button></div>
+    <div class="row ms-2 g-3" style="margin-top: 1px;">
+
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Whoopie Pie</p>
+      <img src="whoopie.png" alt="Whoopie Pie">
+      <p>₱350</p>
+      <button onclick="addToCart('Whoopie Pie',350)">Add</button>
+      </div>
     </div>
 
-    <div class="row ms-2">
-    <div class="item col-sm-4"><p>Lemon Mousse - ₱90</p><button onclick="addToCart('Lemon Mousse',90)">Add</button></div>
-    <div class="item col-sm-4"><p>Crème Brulee - ₱90</p><button onclick="addToCart('Crème Brulee',90)">Add</button></div>
-    <div class="item col-sm-4"><p>Cream Puff - ₱90</p><button onclick="addToCart('Cream Puff',90)">Add</button></div>
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Thai Rolled Ice Cream</p>
+      <img src="rolled_cream.png" alt="Thai Rolled Ice Cream">
+      <p>₱150</p>
+      <button onclick="addToCart('Thai Rolled Ice Cream',150)">Add</button>
+      </div>
     </div>
 
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Parfait</p>
+      <img src="parfait.png" alt="parfait">
+      <p>₱120</p>
+      <button onclick="addToCart('Parfait',120)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Strawberry Shortcake</p>
+      <img src="shortcake.png" alt="Strawberry Shortcake">
+      <p>150</p>
+      <button onclick="addToCart('Strawberry Shortcake',150)">Add</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="row ms-2" style="display: flex; justify-content: center;">
+
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Lemon Mousse</p>
+      <img src="lemon.png" alt="Lemon Mousse">
+      <p>₱185</p>
+      <button onclick="addToCart('Lemon Mousse',185)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Crème Brulee</p>
+      <img src="creme.png" alt="Creme Brulee">
+      <p>₱110</p>
+      <button onclick="addToCart('Crème Brulee',110)">Add</button>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="item dess">
+      <p>Cream Puff</p>
+      <img src="cream_puff.png" alt="Cream Puff">
+      <p>₱90</p>
+      <button onclick="addToCart('Cream Puff',90)">Add</button>
+    </div>
+    </div>
   </div>
+ </div>
+ </div>
 
-  <div class="cart col-sm-6">
-    <h2>Cart</h2>
+  <div class="cart col-sm-5">
+    <p style="font-family: 'Sniglet'; font-size: 45px;">Cart</p>
     <ul id="cartList"></ul>
     <p>Total: ₱<span id="total">0</span></p>
 
@@ -83,7 +329,6 @@
       <button type="submit">Checkout</button>
     </form>
   </div>
-
 </div>
 
 <br><br>
