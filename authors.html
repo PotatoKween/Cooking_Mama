@@ -20,16 +20,40 @@
       padding: 5px;
       box-shadow: 5px 5px 0px #e59396;
     }
+    .member img:hover{
+      padding: 3px;
+    }
     h1, h2{
       font-family: 'Sniglet';
       text-align: center;
       margin-top: 10px;
     }
-    header img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+header {
+  width: 100%;
+  height: 400px;
+  background-color: #ffe4e5; 
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("header_bg_plain.png");
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+}
+
+@media (min-width: 1747px){
+  header{
+    background-image: url('header_bg.png');
+  }
     }
+
     footer{
   text-align: center;
   padding: 15px;
@@ -37,24 +61,22 @@
   font-size: 18px;
   font-family: 'Sniglet';
     }
-    nav{
+nav {
+  background-color: white;
   text-align: center;
-  font-family: 'Sniglet';
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
+  font-size: 30px;
+  padding: 10px;
+  font-family: 'Sniglet'; 
 }
-nav a{
-    color: #000000;
-    text-decoration: none;
-    padding: 12px;
-    border-bottom: 4px white solid;
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 12px;
 }
-nav a:hover{
-  border-bottom: 5px #fdb913 solid;
-  border-width: 50%;
+
+nav a:hover { 
+  border-bottom: 5px #fdb913 solid; 
 }
 
   </style>
@@ -63,12 +85,12 @@ nav a:hover{
 <body>
 
 <header>
-  <img src="header.png" alt="Cooking Mama">
+  <img src="header.png" alt="Cooking Mama" class="logo">
 </header>
 
 <nav class="row" style="border-bottom: 5px solid #f7ce65">
-  <div class="col-sm-7"><a href="index.html">Home</a></div>
-  <div class="col-sm-5" style="border-left: 5px solid #b45326"><a href="authors.html">About the Company</a></div>
+  <div class="col-sm-6"><a href="new.html">Home</a></div>
+  <div class="col-sm-6" style="border-left: 5px solid #b45326"><a href="authors.html">About the Company</a></div>
 </nav>
 
 <div class="container-fluid">
@@ -80,6 +102,8 @@ nav a:hover{
     <p>
     BONGALON 
     <br>Alexei Vaughn P.
+    <br>
+    <img src="Vaughn.jpg" alt="Vaughn Bongalon" style="width: 53%; height: 350px; border: 5px solid white">
     <br><br>Researcher & JS Head
     </p>
     </div>
@@ -87,10 +111,12 @@ nav a:hover{
 
     <div class="col-sm-4">
     <div class="member">
-    <p>
-    BARSON
+    <p>BARSON
     <br>Moira L.
-    <br><br>Researcher & Design Head
+    <br>
+    <img src="Moi.jpg" alt="Moira Barson" style="width: 85%; height: 350px; border: 5px solid white">
+    <br><br>
+    Design Head<br>Researcher
     </p>
     </div>
   </div>
@@ -100,6 +126,8 @@ nav a:hover{
     <p>
     MENDOZA
     <br>Samantha Guiliana A.
+    <br>
+    <img src="Sam.jpg" alt="Samantha Mendoza" style="width: 50%; height: 350px; border: 5px solid white">
     <br><br>Researcher & HTML Head
     </p>
     </div>
@@ -121,7 +149,7 @@ nav a:hover{
 </div>
 
 <footer>
-  <p>Thank you for coming to Cooking Mama!
+  <p>Thank you for coming to Cooking Mama Resto!
     <br> © 2026 Bongalon-Barson-Mendoza. All rights reserved
   </p>
 </footer>
