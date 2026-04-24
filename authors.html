@@ -37,6 +37,26 @@
   font-size: 18px;
   font-family: 'Sniglet';
     }
+    nav{
+  text-align: center;
+  font-family: 'Sniglet';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+nav a{
+    color: #000000;
+    text-decoration: none;
+    padding: 12px;
+    border-bottom: 4px white solid;
+}
+nav a:hover{
+  border-bottom: 5px #fdb913 solid;
+  border-width: 50%;
+}
+
   </style>
 
 </head>
@@ -45,6 +65,11 @@
 <header>
   <img src="header.png" alt="Cooking Mama">
 </header>
+
+<nav class="row" style="border-bottom: 5px solid #f7ce65">
+  <div class="col-sm-7"><a href="index.html">Home</a></div>
+  <div class="col-sm-5" style="border-left: 5px solid #b45326"><a href="authors.html">About the Company</a></div>
+</nav>
 
 <div class="container-fluid">
 <h1>About the Chefs!</h1>
