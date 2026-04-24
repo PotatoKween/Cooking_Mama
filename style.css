@@ -1,7 +1,11 @@
 body {
   font-family: 'Sniglet';
 }
-
+.main{
+  background-image: url('picnic.png');
+  background-size: cover;
+  background-repeat: none;
+}
 .container {
   display: flex;
   gap: 40px;
@@ -27,7 +31,6 @@ header{
 }
 header img{
   display: block;
-  margin-right: auto;
   margin-left: auto;
   width: 1375px;
 }
@@ -110,6 +113,7 @@ nav{
   justify-content: center;
   align-items: center;
   padding: 5px;
+  background-color: white;
 }
 nav a{
     color: #000000;
