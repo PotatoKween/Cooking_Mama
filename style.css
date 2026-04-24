@@ -87,7 +87,10 @@ button {
   box-shadow: 0px 1.2px 0px #000000;
   transition: all 0.1s;
 }
-
+button:hover{
+  font-size: 18px;
+  background-color: rgb(200, 200, 200);
+}
 button:active {
   transform: translateY(4px);
   box-shadow: 0px 0px 0px #e0838a; 
@@ -106,7 +109,12 @@ nav a {
   padding: 12px;
 }
 
-nav a:hover { border-bottom: 5px #fdb913 solid; }
+nav a:hover { 
+  border-bottom: 5px #fdb913 solid; 
+  color: #800035;
+  font-size: 31px;
+  transition: all 0.1s;
+}
 
 footer {
   text-align: center;
@@ -114,4 +122,11 @@ footer {
   background-color: #ffe4e5;
   font-family: 'Sniglet';
   font-size: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;            
+  margin-bottom: 8px;
 }
