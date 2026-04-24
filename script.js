@@ -19,8 +19,8 @@ function displayCart() {
     total += item.prod_price;
 
     let li = document.createElement("li");
-    li.innerHTML = `${item.prod_name} - ₱${item.prod_price} 
-      <button onclick="removeItem(${index})">Remove</button>`;
+    li.innerHTML = `<div class="cart-item"> ${item.prod_name} - ₱${item.prod_price} 
+      <button onclick="removeItem(${index})" style="display: inline-flex; flex-direction: column;">Remove</button> </div>`;
     list.appendChild(li);
   });
 
