@@ -26,8 +26,9 @@ header{
   background-image: url("header_bg.png");
 }
 header img{
-  display: block;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer{
   text-align: center;
